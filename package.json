@@ -1,0 +1,17 @@
+{
+  "name": "tbcounterportable",
+  "description": "portable application for totalbattle counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:TBCounter/TBCounterPortable.git",
+  "author": "Ivan Riazanov <omega19961@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.0",
+    "electron": "^28.1.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
